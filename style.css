@@ -372,13 +372,13 @@ footer {
   .hero h2 {
     font-size: 1.5rem;
     position: relative;
-    left: 7.5rem;
+    left: 4rem;
     top: 5rem;
   } 
 
   .hero p {
     position: relative;
-    left: 5rem;
+    left: 1.5rem;
     top: 5rem;
   }
   
@@ -427,7 +427,7 @@ footer {
   .about {
     position: relative;
     top: 20rem;
-    left: 1.3rem;
+    left: -2rem;
   }
 
   .about h2 {
@@ -439,7 +439,7 @@ footer {
   .about p {
     position: relative;
     top: 10rem;
-    left: -1rem;
+    left: 3rem;
   }
 
   footer {
