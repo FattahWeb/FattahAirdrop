@@ -317,6 +317,54 @@
   transform: scale(1.1); /* Zoom 10% lebih besar */
 }
 
+/* OASIS */
+.hero .oas {
+  position: relative;
+  background-color: #1f1d1d;
+  width: 330px;
+  height: 70px;
+  left: 45rem;
+  top: -3rem;
+  border-radius: 20px;
+  transition: transform 0.5s ease; /* Menambah efek transisi zoom */
+  overflow: hidden; /* Agar gambar tidak meluap dari div */
+}
+
+.hero .oas img {
+  position: relative;
+  top: 0.7rem;
+  height: 50px;
+  width: 50px;
+  left: 1rem;
+  border-radius: 50%;
+}
+
+.hero .oas p {
+  position: relative;
+  left: 5rem;
+  top: -2.3rem;
+  font-size: 2rem;
+}
+
+.hero .oas button {
+  position: relative;
+  background-color: #5f5c5c;
+  border-radius: 30px;
+  width: 80px;
+  height: 30px;
+  top: -4.4rem;
+  left: 14rem;
+}
+
+.hero .oas button:hover {
+  background-color: #9e9d9d;
+}
+
+/* Efek zoom saat cursor berada di atas .blum */
+.hero .oas:hover {
+  transform: scale(1.1); /* Zoom 10% lebih besar */
+}
+
 /* about */
 .about h2 {
   position: relative;
@@ -429,6 +477,12 @@ footer {
     top: 18rem;
   }
 
+  .hero .oas {
+    position: relative;
+    left: 2rem;
+    top: 19rem;
+  }
+
   .about {
     position: relative;
     top: 20rem;
@@ -450,9 +504,9 @@ footer {
 
   .about p {
     position: relative;
-    font-size: 8px;
+    font-size: 10px;
     top:6rem;
-    left: 3.5rem;
+    left: 2.5rem;
   }
 
   footer {

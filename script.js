@@ -23,3 +23,8 @@ document.getElementById("pawButton").addEventListener("click", function() {
       // Mengarahkan pengguna ke URL yang diinginkan
       window.location.href = "https://app.blockmesh.xyz/register?invite_code=ad369300-f7e5-4e0f-8a3d-50954bf1296e"; // Ganti dengan URL tujuan Anda
     });
+
+ document.getElementById("oasButton").addEventListener("click", function() {
+      // Mengarahkan pengguna ke URL yang diinginkan
+      window.location.href = "https://r.oasis.ai/0e33ee1e05e695b5"; // Ganti dengan URL tujuan Anda
+    });
