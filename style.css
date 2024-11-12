@@ -13,19 +13,18 @@
   }
   
   body {
-    overflow-x: hidden;
-    font-family: "Poppins", sans-serif;
-    background-color: var(--bg);
-    color: #fff;
-     /* min-height: 5000px; */
+  overflow-y: auto;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg);
+  color: #fff;
+  min-height: 100vh;
   }
 
   html, body {
-    overflow-x: hidden; /* Menyembunyikan scroll horizontal */
-    margin: 0; /* Menghilangkan margin default */
-    padding: 0; /* Menghilangkan padding default */
-    width: 100%; /* Memastikan body tidak lebih lebar dari layar */
-  }
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
   * {
     box-sizing: border-box;
