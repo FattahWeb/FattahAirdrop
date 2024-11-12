@@ -20,6 +20,24 @@
      /* min-height: 5000px; */
   }
 
+  html, body {
+    overflow-x: hidden; /* Menyembunyikan scroll horizontal */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    width: 100%; /* Memastikan body tidak lebih lebar dari layar */
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;  /* Membatasi gambar agar tidak lebih lebar dari layar */
+    height: auto;     /* Menjaga rasio gambar */
+  }
+  
+  
+
   .logo img {
     position: relative;
     width: 50px;
