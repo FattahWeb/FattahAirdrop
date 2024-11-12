@@ -363,6 +363,12 @@ footer {
     left: 4rem;
     top: 5rem;
   } 
+
+  .hero p {
+    position: relative;
+    left: 1.5rem;
+    top: 5rem;
+  }
   
   .hero .tele h2 {
     position: relative;
@@ -410,6 +416,12 @@ footer {
     position: relative;
     top: 20rem;
     left: -2rem;
+  }
+
+  .about h2 {
+    position: relative;
+    top: 7rem;
+    left: 8rem;
   }
 
   .about p {
