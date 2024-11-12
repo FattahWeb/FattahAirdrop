@@ -12,19 +12,14 @@
     text-decoration: none;
   }
   
-  body {
+body {
   overflow-y: auto;
+  overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
   min-height: 100vh;
   }
-
-  html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
 
   * {
     box-sizing: border-box;
@@ -455,5 +450,7 @@ footer {
     text-align: center;
     padding: 20px;
   }
+
+
 
 
